@@ -67,7 +67,10 @@ h1 span {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease;
-  width:100%;
+  flex: 1;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .home-section-button:hover {
@@ -91,7 +94,9 @@ h1 span {
   cursor: pointer;
   transition: 0.3s ease;
 
-  width:100%;
+  font-size: 18px;
+  font-weight: 600;
+
 }
 
 .call-now-button:hover {
@@ -111,6 +116,19 @@ h1 span {
 
   .home-section-content {
     padding: 0 15px;
+  }
+  .home-section-button {
+    width:100%;
+    justify-content: center;
+    font-family: 700;
+    font-size: 17px;
+  }
+  .call-now-button {
+    width:100%;
+    justify-content: center;
+    font-family: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
   }
 }
 
