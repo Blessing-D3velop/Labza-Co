@@ -118,7 +118,7 @@ header {
 .mobile-header {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding:  0 20px;
   z-index: 10000;
 }
 
@@ -126,6 +126,7 @@ header {
   font-size: 30px;
   cursor: pointer;
   color: #042950;
+  margin-top: 20px;
 }
 
 
@@ -136,7 +137,7 @@ header {
   justify-content: center;
   padding: 0 20px;
   gap: 5px;
-  margin-top: -60px;
+  margin-top: -30px;
 }
 
 .mobile-nav p {

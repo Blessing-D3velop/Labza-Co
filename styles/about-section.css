@@ -15,16 +15,16 @@
 
 .about-section-title{
   font-size: 1rem;
-  margin-bottom: 10px; /* tightened spacing */
+  margin-bottom: 10px; 
   color: orange;
-  text-transform: uppercase; /* looks more like a label */
+  text-transform: uppercase; 
   letter-spacing: 1px;
 }
 
 h2{
   color: #042950;
   font-size: 3rem;
-  margin-bottom: 20px; /* 🔥 fix spacing issue */
+  margin-bottom: 20px; 
 }
 
 .about-section-description{
@@ -33,7 +33,7 @@ h2{
   margin-bottom: 15px;
 }
 
-/* STATS */
+
 .about-section-bottom-container{
   display: flex;
   gap: 40px;
@@ -62,10 +62,10 @@ h2{
 
 .about-section-bottom-container p {
   color: #666;
-  margin: 0; /* 🔥 remove weird spacing */
+  margin: 0; 
 }
 
-/* IMAGE */
+
 .about-section-image-container {
   flex: 1;
   min-width: 300px;
@@ -79,15 +79,15 @@ h2{
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  transition: 0.3s ease; /* 🔥 smooth effect */
+  transition: 0.3s ease; 
 }
 
 .about-section-image:hover {
-  transform: scale(1.03); /* 🔥 subtle premium hover */
+  transform: scale(1.03); 
 }
 
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
@@ -103,11 +103,11 @@ h2{
   }
 
   .about-section-title {
-    font-size: 0.9rem; /* 🔥 keep label small */
+    font-size: 0.9rem; 
   }
 
   h2 {
-    font-size: 2rem; /* 🔥 fix oversized heading */
+    font-size: 2rem;
   }
   .about-section-bottom-container h1 {
     font-size: 1.5rem;

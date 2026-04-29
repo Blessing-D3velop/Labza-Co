@@ -3,3 +3,23 @@ body {
   margin: 0;
   padding: 0;
 }
+h3{
+  color: #042950;
+  font-size: 3rem;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 1.2rem;  
+  text-align: center;
+  margin-bottom: -30px;
+color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+font-weight: 600;
+}
