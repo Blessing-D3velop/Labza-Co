@@ -159,4 +159,7 @@ header {
   color: white;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  justify-content: center;
 }
