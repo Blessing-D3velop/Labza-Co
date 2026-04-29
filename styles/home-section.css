@@ -67,6 +67,7 @@ h1 span {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease;
+  width:100%;
 }
 
 .home-section-button:hover {
@@ -89,6 +90,8 @@ h1 span {
   border-radius: 6px;
   cursor: pointer;
   transition: 0.3s ease;
+
+  width:100%;
 }
 
 .call-now-button:hover {
