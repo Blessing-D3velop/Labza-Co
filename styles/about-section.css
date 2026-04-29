@@ -1,0 +1,129 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+
+.about-section-content{
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.about-section-title{
+  font-size: 1rem;
+  margin-bottom: 10px; /* tightened spacing */
+  color: orange;
+  text-transform: uppercase; /* looks more like a label */
+  letter-spacing: 1px;
+}
+
+h2{
+  color: #042950;
+  font-size: 3rem;
+  margin-bottom: 20px; /* 🔥 fix spacing issue */
+}
+
+.about-section-description{
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* STATS */
+.about-section-bottom-container{
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.about-section-bottom-container .left-section,
+.about-section-bottom-container .right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  min-width: 120px;
+  border-left: 4px solid #21006d;
+  padding-left: 15px;
+}
+
+.about-section-bottom-container h1 {
+  font-size: 2.5rem;
+  color: orange;
+  margin: 0;
+}
+
+.about-section-bottom-container p {
+  color: #666;
+  margin: 0; /* 🔥 remove weird spacing */
+}
+
+/* IMAGE */
+.about-section-image-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-section-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: 0.3s ease; /* 🔥 smooth effect */
+}
+
+.about-section-image:hover {
+  transform: scale(1.03); /* 🔥 subtle premium hover */
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .about-section-bottom-container {
+    flex-direction: column;
+  }
+
+  .about-section-content {
+    max-width: 100%;
+  }
+
+  .about-section-title {
+    font-size: 0.9rem; /* 🔥 keep label small */
+  }
+
+  h2 {
+    font-size: 2rem; /* 🔥 fix oversized heading */
+  }
+  .about-section-bottom-container h1 {
+    font-size: 1.5rem;
+    color: orange;
+
+  }
+  .about-section-bottom-container .right-section p{
+    display: block;
+  }
+
+}
+@media (max-width: 341px){
+  .about-section-image {
+    width: 90%;
+    max-width: 500px;
+    margin-right: 10px;
+
+  }
+}
