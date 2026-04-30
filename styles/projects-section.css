@@ -26,10 +26,9 @@
   border-radius: 8px;
 }
 @media (max-width: 768px) {
-  .projects-container {
-    padding: 40px;
+  .projects-section{
+    padding: 10px 30px;
   }
-  
   .project-container .images {
     grid-template-columns: repeat(2, 1fr);
   }
