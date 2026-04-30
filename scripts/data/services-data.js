@@ -29,5 +29,10 @@ export const servicesData = [
     title: "Renovations",
     description:"Transform your existing space with modern designs and high-quality finishes."
   },
+  {
+    svg:"Images-and-icons/icons8-foil-roll-50.png",
+    title:"Aluminum & Welding",
+    description:"Expert aluminum fabrication and welding services for custom projects.",
+  }
 
 ]

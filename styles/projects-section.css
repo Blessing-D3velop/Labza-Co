@@ -1,0 +1,40 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px;
+}
+
+.project-container p {
+  font-size: 1.5rem;
+  color: #042950;
+  margin-bottom: 10px;
+}
+
+.project-container .images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.project-container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 40px;
+  }
+  
+  .project-container .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
