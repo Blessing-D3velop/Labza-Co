@@ -14,6 +14,7 @@ export const projectsData = [
       "Images-and-icons/Images/build1.jpg",
       "Images-and-icons/Images/build3.jpg",
       "Images-and-icons/Images/build4.jpg",
+      "Images-and-icons/Images/about-section-image.jpg"
     ]
   },
   {
