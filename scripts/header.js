@@ -37,3 +37,49 @@ document.querySelectorAll('.js-services')
       menu.classList.remove("active");
     });
   });
+
+document.querySelectorAll('.js-projects')
+  .forEach(link => {
+    link.addEventListener('click', () => {
+      const projectsSection = document.getElementById('projects-section-id');
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+      menu.classList.remove("active");
+    });
+  });
+
+document.querySelectorAll('.js-contact')
+  .forEach(link => {
+    link.addEventListener('click', () => {
+      const contactSection = document.getElementById('contact-section-id');
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+      menu.classList.remove("active");
+    });
+  });
+
+
+
+  const quoteButtons = document.querySelectorAll('.js-book-button');
+
+quoteButtons.forEach((button) => {
+
+  button.addEventListener('click', () => {
+
+    const whatsappNumber = '27607900668';
+
+    const message = 
+`Hello Labza Co Services,
+
+I would like to request a quote for a project.
+
+Please provide me with more information.`;
+
+    const encodedMessage = encodeURIComponent(message);
+
+    const whatsappURL =
+`https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappURL, '_blank');
+
+  });
+
+});

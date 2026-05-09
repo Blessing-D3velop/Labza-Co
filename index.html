@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="styles/about-section.css">
     <link rel="stylesheet" href="styles/services-section.css">
     <link rel="stylesheet" href="styles/projects-section.css">
+    <link rel="stylesheet" href="styles/contact-section.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
 
   </head>
@@ -84,7 +86,7 @@
                 Get a Quote
               <img src="Images-and-icons/Icons/icons8-right-24.png" alt="right-arrow-icon" class="right-arrow-icon">
             </button>
-            <button class="call-now-button">
+            <button class="call-now-button js-call-now-button">
               <img src="Images-and-icons/Icons/icons8-call-24.png" alt="call-icon" class="call-icon">
               Call Now
             </button>
@@ -130,6 +132,8 @@
 
         </div>
        </section>
+
+       <!-- PROJECTS SECTION -->
        <section class="projects-section" id="projects-section-id">
         <p class="section-title">Our Projects</p>
         <h3>Transforming Spaces, Building Dreams</h3>
@@ -140,13 +144,132 @@
 
 
        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-section" id="contact-section-id">
+          <div class="contact-container">
+
+            <!-- LEFT SIDE -->
+            <div class="contact-info">
+              <p class="section-title">Get In Touch</p>
+              <h3>Ready to Start Your Journey?</h3>
+
+              <p class="contact-description">
+                Contact us today for a free consultation and quote. 
+                Our experts are ready to assist you with any project, big or small.
+              </p>
+
+              <div class="contact-card">
+                <h4>Call or WhatsApp</h4>
+
+                <div class="phone-container">
+                  <img src="Images-and-icons/Icons/icons8-call-24.png" 
+                  alt="phone-icon" class="contact-icon">
+
+                  <p>+27 60 790 0668</p>
+                </div>
+
+                <a href="https://wa.me/27607900668" target="_blank" class="whatsapp-button">
+                  Message on WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="contact-form-container">
+              <h4>Free Quote Request</h4>
+
+              <form class="contact-form">
+
+                <label>Your Name</label>
+                <input type="text" placeholder="e.g. John Doe">
+
+                <label>Phone Number</label>
+                <input type="text" placeholder="e.g. +27 123 456 789">
+
+                <label>Message</label>
+                <textarea placeholder="Tell us about your project..."></textarea>
+
+                <button type="submit" class="send-request-button">
+                  Send Request
+                </button>
+
+              </form>
+            </div>
+
+          </div>
+        </section>
     </main>
+
     <div class="image-modal js-image-modal">
       <span class="close-modal js-close-modal">&times;</span>
       <img class="modal-image js-modal-image" src="" alt="">
     </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+
+        <!-- LEFT -->
+        <div class="footer-about">
+          <div class="footer-logo-container">
+            <img src="Images-and-icons/Labza-Logo.png" 
+            alt="Labza Logo" class="footer-logo">
+
+            <h2>LABZA CO</h2>
+          </div>
+
+          <p>
+            Professional building and maintenance services across South Africa. 
+            Quality you can build on, reliability you can trust.
+          </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+
+          <p class="js-home">Home</p>
+          <p class="js-about">About Us</p>
+          <p class="js-services">Our Services</p>
+          <p class="js-projects">Our Projects</p>
+          <p class="js-contact">Contact</p>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="footer-services">
+          <h4>Services</h4>
+
+          <p>Building Construction</p>
+          <p>Home Renovations</p>
+          <p>Plumbing & Electrical</p>
+          <p>Professional Painting</p>
+          <p>General Maintenance</p>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+
+          <p>+27 60 790 0668</p>
+          <p>WhatsApp Available</p>
+          <p>Serving all areas in South Africa</p>
+        </div>
+
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="footer-bottom">
+        <p>
+          © 2026 Labza Co Services. All Rights Reserved. Built with Quality.
+        </p>
+      </div>
+    </footer>
+    
     <script src="scripts/header.js"></script>
     <script type="module" src="scripts/services.js"></script>
     <script type="module" src="scripts/projects.js"></script>
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/home.js"></script>
   </body>
 </html>

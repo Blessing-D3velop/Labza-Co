@@ -1,0 +1,171 @@
+.contact-section{
+  padding: 90px 80px;
+  background-color: #f8f8f8;
+}
+
+.contact-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact-info h3{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contact-description{
+  color: #555;
+  line-height: 1.8;
+  margin-top: 20px;
+  font-size: 1.05rem;
+}
+
+.contact-card{
+  background-color: white;
+  margin-top: 35px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.contact-card h4{
+  color: #042950;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.phone-container{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.contact-icon{
+  width: 24px;
+  height: 24px;
+}
+
+.phone-container p{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #042950;
+}
+
+.whatsapp-button{
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.whatsapp-button:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* FORM */
+
+.contact-form-container{
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.contact-form-container h4{
+  font-size: 1.5rem;
+  color: #042950;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form label{
+  font-weight: 600;
+  color: #042950;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: Roboto, Arial;
+  outline: none;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+.contact-form textarea{
+  resize: none;
+  height: 140px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+  border-color: orange;
+  box-shadow: 0 0 0 3px rgba(255,165,0,0.15);
+}
+
+.send-request-button{
+  background-color: #042950;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.send-request-button:hover{
+  background-color: orange;
+  transform: translateY(-3px);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px){
+
+  .contact-section{
+    padding: 60px 20px;
+  }
+
+  .contact-container{
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info h3{
+    text-align: center;
+  }
+
+  .contact-description{
+    text-align: center;
+  }
+
+  .contact-card{
+    text-align: center;
+  }
+
+  .phone-container{
+    justify-content: center;
+  }
+
+  .contact-form-container{
+    padding: 25px;
+  }
+}
